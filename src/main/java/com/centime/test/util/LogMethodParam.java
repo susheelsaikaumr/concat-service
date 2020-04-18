@@ -1,4 +1,4 @@
-package com.centime.person.util;
+package com.centime.test.util;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package com.centime.person.infrastructure.web;
+package com.centime.test.infrastructure.web;
 
 import lombok.Builder;
 import lombok.Data;
@@ -13,7 +13,6 @@ import java.util.List;
  */
 @Data
 @Builder
-@SuppressWarnings({"checkstyle:javadocmethod"})
 class ErrorResponse {
 
     private final HttpStatus status;

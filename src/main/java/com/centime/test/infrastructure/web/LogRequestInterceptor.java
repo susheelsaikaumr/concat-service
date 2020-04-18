@@ -1,11 +1,11 @@
-package com.centime.person.infrastructure.web;
+package com.centime.test.infrastructure.web;
 
-import java.util.Enumeration;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
-import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+import java.util.Enumeration;
 
 /**
  * Custom implementation of {@link org.springframework.web.servlet.AsyncHandlerInterceptor} to log the requests that are

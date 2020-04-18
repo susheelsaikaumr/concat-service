@@ -1,4 +1,4 @@
-package com.centime.person.infrastructure.web;
+package com.centime.test.infrastructure.web;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

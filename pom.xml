@@ -9,10 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.centime</groupId>
-	<artifactId>person-service</artifactId>
+	<artifactId>concat-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>person-service</name>
+	<name>concat-service</name>
 	<description>Demo project for Spring Boot</description>
+
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -76,5 +77,6 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
